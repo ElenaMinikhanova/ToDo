@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="search">
+        <menu>
+        <strong class="strong">Наши задачи</strong>
+        <form class="form" action="#" method="post">
+            <label class="label" for="search">Поиск задачи</label>
+            <input class="po" type="search" id="search" name="search" placeholder="Введите название задачи">
+        </form>
+            <img class="images" src="images/Group 1.png" alt="Значек поиска">
+        </menu>
+    </header>
+    <main>
+        <h1>Наши наполеоновские задачи для обучения</h1>
+        <h2>Добавить задачу</h2>
+        <form class="add" id="add" action="#" method="post">
+            <p class="p">
+            <label class="date1" for="date">Дата выполнения</label>
+            <br>
+            <input class="date2" type="date" id="date" name="date">
+            <br>
+            <label class="text11" for="text1">Наименование задачи</label>
+            <br>
+            <input class="text12" type="text1" id="text1" name="text1" placeholder="Изучить ООП за один день">
+            </p>
+            <p>
+            <label class="text21" for="text2">Описание задачи</label>
+            <br>
+            <input class="text22" type="text2" id="text2" name="text2" placeholder="Можно не экономить количество буков...">
+            </p>
+            <button class="button1" type="button" >Добавить <img class="images1" src="images/Vector.png" alt="Значек флешки"></button>
+        </form>
+        <task list>
+            <h2>Список задач</h2>
+            <list class="list">
+                <item block>
+                    <date>
+                        03.03.2024
+                    </date>
+                    <description>
+                        Освоить алгоритмы и паттерны проектирования
+                    </description>
+                    <description>
+                        В планах сегодня не пить не есть не спать а только заниматься...
+                    </description>
+                    <status>
+                        <img class="images2" src="images/Group.png" alt="значек часов">
+                    </status>
+                </item>
+                <br>
+                <item block class="item2">
+                    <date>
+                        03.03.2024
+                    </date>
+                    <description>
+                        Изучить ООП за 1 вечер
+                    </description>
+                    <description>
+                        В планах сегодня не пить не есть не спать а только заниматься...
+                    </description>
+                    <status>
+                        <img class="images2" src="images/Vector1.png" alt="значек часов">
+                    </status>
+                </item>
+            </list>
+        </task>
+    </main>
+</body>
+</html>

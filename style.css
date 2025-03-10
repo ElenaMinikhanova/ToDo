@@ -1,0 +1,151 @@
+menu {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0 80px;
+}
+h1 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin: 21px 0 39px 0;
+    height: 54px;
+    padding-top: 20px;
+}
+h2 {
+    font-family: sans-serif;
+    width: 1276;
+    height: 19;
+    top: 171px;
+    left: 3px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+}
+.search {
+    background-color: #F2F0F0;
+    width: 1440px;
+    height: 57px;
+    border-bottom: 1px solid black;
+}
+.po {
+    border-radius: 6px;
+    border: 1px solid #B2B2B2;
+    width: 739px;
+    height: 37px;
+    margin-left: 50px
+}
+.images {
+    Width: 89px;
+    Height: 37px;
+}
+.strong {
+    padding-top: 9px;
+    width: 195px;
+    height: 38px;
+}
+.form {
+    margin-left: 110px;
+    Width: 1064px;
+    Height: 37px;
+}
+.label {
+    Width: 216px;
+}
+.add {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 80px;
+}
+.date2 {
+    border-radius: 6px;
+    border: 1px solid #B2B2B2;
+    width: 523px;
+    height: 36px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #909090;
+}
+.text12 {
+    border-radius: 6px;
+    border: 1px solid #B2B2B2;
+    width: 523px;
+    height: 36px;
+}
+.text22 {
+    border-radius: 6px;
+    border: 1px solid #B2B2B2;
+    width: 519px;
+    height: 121px;
+}
+.text22::placeholder {
+    transform: translateY(-50px);
+  }
+.button1 {
+    width: 195px;
+    height: 62px;
+    top: 95px;
+    left: 1084px;
+    border-radius: 6px;
+    border: 1px solid #68B07D;
+    margin-top: 90px;
+    margin-right: 80px;
+    background-color: #68B07D;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+.images1 {
+    width: 24;
+    height: 24;
+    top: 19px;
+    left: 137px;
+}
+.p {
+    height: 100px;
+}
+item {
+    display: flex;
+    justify-content: space-around;
+    width: 1280;
+    height: 72;
+    top: 0.26px;
+    margin: 0 160px 0 80px;
+    background-color: #E9EAD8;
+}
+date {
+    font-weight: bold;
+    padding-top: 18px;
+    width: 196;
+    text-align: center;
+}
+title {
+    padding-top: 18px;
+    width: 411;
+    height: 72;
+    left: 218px;
+    text-align: left;
+}
+description {
+    padding-top: 20px;
+    width: 521;
+    height: 72;
+    left: 652px;
+}
+status {
+    padding-top: 10px;
+    padding-right: 20px;
+    width: 86;
+    height: 71;
+    left: 1194px;
+}
+.item2 {
+    margin-top: 10px;
+    background-color: #D8EADF;
+}
